@@ -116,3 +116,75 @@ minimum number of players who need to get shot is 1
 .
 Test Case 3: Nobody needs to get shot because everyone is shorter than Gi-Hun and Ali.
 
+# Solution
+
+![quetion2](https://user-images.githubusercontent.com/82312119/191941844-c9e0f341-75f0-4887-a131-620b5198ab14.PNG)
+# Code Explaination
+Detailed Explanation 1
+The code is doing the following:
+1. It is taking the input of the number of test cases, which is an integer.
+2. Then it is taking the size of the list and the maximum value in the list.
+3. Then it is taking the elements of the list as integers.
+4. Then it is checking if each element in the list is greater than the maximum value.
+5. If it is greater than the maximum value, then it is incrementing the count by 1.
+6. Then it is printing the count.
+
+Detailed Explanation 2
+
+Explanation of the code:
+1. Take T as the number of test cases
+2. For each test case, take the size of the array and the maximum value
+3. Take the input as a list of integers
+4. Iterate through the list and check if each element is greater than the maximum value
+5. If it is greater, increment count by 1
+6. Print the count
+
+Brief Explanation
+The above code works by taking the input of size and max value.
+Then we take a list of numbers and check if any number is greater than max value.
+If it is greater, then we increment count by 1.
+Finally we print the count.
+
+
+Concepts
+To understand this code you should know following 2 concepts:
+1. List Comprehension
+2. Sorting
+
+Time Complexity
+The time complexity of this code is O(n) where n is the number
+
+#code:
+```
+for i in range(int(input())):
+    count=0
+    size,max=map(int,input().split())
+    lst=list(map(int,input().split()))
+    for i in lst:
+        if i>max:
+            count+=1 
+    print(count)
+    
+```
+
+
+Input1: 
+```
+3
+4 10
+2 13 4 16
+5 8
+9 3 8 8 4
+4 6
+1 2 3 4
+```
+
+output
+```
+2
+1
+0
+```
+
+
+
