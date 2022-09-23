@@ -120,7 +120,7 @@ Test Case 3: Nobody needs to get shot because everyone is shorter than Gi-Hun an
 
 ![quetion2](https://user-images.githubusercontent.com/82312119/191941844-c9e0f341-75f0-4887-a131-620b5198ab14.PNG)
 # Code Explaination
-Detailed Explanation 1
+Detailed Explanation 1:
 The code is doing the following:
 1. It is taking the input of the number of test cases, which is an integer.
 2. Then it is taking the size of the list and the maximum value in the list.
@@ -129,7 +129,7 @@ The code is doing the following:
 5. If it is greater than the maximum value, then it is incrementing the count by 1.
 6. Then it is printing the count.
 
-Detailed Explanation 2
+Detailed Explanation 2:
 
 Explanation of the code:
 1. Take T as the number of test cases
@@ -139,19 +139,19 @@ Explanation of the code:
 5. If it is greater, increment count by 1
 6. Print the count
 
-Brief Explanation
+Brief Explanation:
 The above code works by taking the input of size and max value.
 Then we take a list of numbers and check if any number is greater than max value.
 If it is greater, then we increment count by 1.
 Finally we print the count.
 
 
-Concepts
+Concepts:
 To understand this code you should know following 2 concepts:
 1. List Comprehension
 2. Sorting
 
-Time Complexity
+Time Complexity:
 The time complexity of this code is O(n) where n is the number
 
 # code:
