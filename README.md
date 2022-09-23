@@ -53,7 +53,7 @@ INR 5,04,678.00
 
 ```
 
-# Question 2
+# Question 2:Gi_hun
 You won’t get caught if you hide behind someone.”
 Sang-Woo advises Gi-Hun to hide behind someone to avoid getting shot.
 Gi-Hun follows Sang-Woo's advice and hides behind Ali, who saved his life earlier. Gi-Hun and Ali
@@ -154,7 +154,7 @@ To understand this code you should know following 2 concepts:
 Time Complexity
 The time complexity of this code is O(n) where n is the number
 
-#code:
+# code:
 ```
 for i in range(int(input())):
     count=0
